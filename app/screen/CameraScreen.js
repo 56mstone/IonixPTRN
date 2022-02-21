@@ -8,7 +8,8 @@ export default function CameraScreen({ navigation }) {
  const [cameraGranted, setCameraGranted] = useState(false);
  async function handlePermissionRequest(navegando)  {
     const res = await request(PERMISSIONS.IOS.CAMERA);
-      console.log("pasando")
+      console.log("Resultado Camara: ", RESULTS.GRANTED)
+      console.log("Resultado Camara: ")
       res === RESULTS.GRANTED
         ? setCameraGranted(true)
         : setCameraGranted(false);

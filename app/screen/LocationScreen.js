@@ -1,19 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import AllowComponent from '../components/allow/Index';
 import {LOCATION_TITLE, LOCATION_SUBTITLE, LOCATION_IMAGEN, CANCEL, ALLOW_IMAGEN} from '../tools/constants' 
 import { PERMISSIONS, request, RESULTS } from 'react-native-permissions'
 
 export default function LocationScreen({ navigation }) {
 
- const [cameraGranted, setCameraGranted] = useState(false);
+ 
  async function handlePermissionRequest(navegando)  {
-    const res = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
-      console.log("pasando")
-      res === RESULTS.GRANTED
-        ? setCameraGranted(true)
-        : setCameraGranted(false);
-
-       await navegando();
+  await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE).then((result) => {
+    console.log("resultado location", result)
+  });
+       console.log(RESULTS.GRANTED)
+      await navegando();
     }
 
   return(

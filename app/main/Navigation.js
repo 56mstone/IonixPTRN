@@ -6,11 +6,11 @@ import { bindActionCreators } from 'redux';
 import ActionCreators from '../redux/actions';
 
 //Screen
-
+import HomeScreen from "../screen/HomeScreen";
 import CameraScreen from "../screen/CameraScreen";
 import PushScreen from "../screen/PushScreen";
 import LocationScreen from "../screen/LocationScreen";
-import HomeScreen from "../screen/HomeScreen";
+
 
 const Stack = createStackNavigator();
 
