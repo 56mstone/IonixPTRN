@@ -24,6 +24,7 @@ export const IMAGEN_DOWN = (require("../assets/down.png"));
 export const IMAGEN_MESSAGE = (require("../assets/LikeCopy.png"));
 export const IMAGEN_NOTFOUND = (require("../assets/NotFound.png"));
 export const IMAGEN_SWAGGER = (require("../assets/NotFound.png"));
+export const IMAGEN_C = (require("../assets/NotFound.png"));
 export const IMAGEN_A = (require("../assets/NotFound.png"));
 export const IMAGEN_B = (require("../assets/NotFound.png"));
 
