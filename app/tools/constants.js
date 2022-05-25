@@ -24,6 +24,7 @@ export const IMAGEN_DOWN = (require("../assets/down.png"));
 export const IMAGEN_MESSAGE = (require("../assets/LikeCopy.png"));
 export const IMAGEN_NOTFOUND = (require("../assets/NotFound.png"));
 export const IMAGEN_SWAGGER = (require("../assets/NotFound.png"));
+export const IMAGEN_GROUP = (require("../assets/NotFound.png"));
 
 //Fotos Genericas
 export const GENERIC_PROFILE_PHOTO =

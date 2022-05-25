@@ -1,0 +1,31 @@
+[33mcommit c49a8e1e7329c95eed3404b0784b240db1abecc6[m[33m ([m[1;36mHEAD -> [m[1;32mnewBranch[m[33m)[m
+Author: Martin Stone <mstone@vigatec.cl>
+Date:   Wed May 25 11:00:13 2022 -0400
+
+    Revert "feat group"
+    
+    This reverts commit af209fb0550f70f17d8c69580342b9586b1f98a6.
+
+[33mcommit af209fb0550f70f17d8c69580342b9586b1f98a6[m[33m ([m[1;31morigin/newBranch[m[33m)[m
+Author: Martin Stone <mstone@vigatec.cl>
+Date:   Wed May 25 10:38:18 2022 -0400
+
+    feat group
+
+[33mcommit 1c4cd8dc7c551a4b66a8b09b58677709b47dd6e5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Martin Stone <mstone@vigatec.cl>
+Date:   Wed May 25 10:35:30 2022 -0400
+
+    feat swagger
+
+[33mcommit ff139a28063525eb1ff92d7fb68d9d7bb7bcc005[m
+Author: 56mstone <56mstone@gmail.com>
+Date:   Sun Feb 20 23:00:09 2022 -0300
+
+    Entregable OK
+
+[33mcommit b84e64cbb9a26f6d99870ca010bc640170f346c9[m
+Author: 56mstone <56mstone@gmail.com>
+Date:   Sun Feb 20 20:50:57 2022 -0300
+
+    Initial commit
